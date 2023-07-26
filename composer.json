@@ -1,0 +1,22 @@
+{
+  "name": "rhinos/php-firebase-cloud-messaging",
+  "description": "PHP API for Firebase Cloud Messaging from Google",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rhinos Solutions",
+      "email": "innovation@rhinos.fr"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "google/apiclient": "^2.0",
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "rhinos\\PhpFirebaseCloudMessaging\\": "src/"
+    }
+  }
+}
